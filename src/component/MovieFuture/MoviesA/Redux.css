@@ -1,0 +1,38 @@
+.card-parent{
+     display: flex; 
+     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.image{
+   
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+    transition: 0.4s;
+    justify-items: center;
+    
+}
+/* .image:hover{
+    box-shadow:  lightblue 2px 2px 3px , orange -2px -2px 3px;
+
+} */
+
+.card{
+    
+    background-color: greenyellow;
+    margin: 20px;
+    width: 300px;
+    border: 20px;
+    border-radius: 10px;
+    box-shadow: orange 3px 3px 4px , black -3px -3px -5px;
+    transition: 0.5s;
+}
+/* .card:hover{
+    display: none;
+} */
+
+
+
